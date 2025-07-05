@@ -78,28 +78,15 @@ App will run on: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🌍 Live Demo
-
-_Coming soon..._
-
----
-
-## 📸 Screenshots
-
-_Add UI screenshots here if available._
-
----
-
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ---
 
-## 📌 To-Do / Future Improvements
+## 📌 Future Improvements
 
 - Smart contract deployment to mainnet
 - Wallet connection for Tezos
-- Better NFT search/filter options
-- Add user profile pages
-
+- NFT search and filter functionality
+- User profile and collection views
