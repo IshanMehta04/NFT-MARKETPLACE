@@ -1,70 +1,105 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🖼️ NFT Marketplace
 
-## Available Scripts
+A decentralized NFT marketplace built with React, enabling users to mint, view, and interact with NFTs using Ethereum and Tezos blockchains. The platform integrates IPFS for secure decentralized storage and provides a clean UI for an intuitive user experience.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🧾 NFT minting and listing
+- 🌐 Ethereum and Tezos blockchain integration
+- 🗂️ Metadata upload via IPFS
+- 🎨 Dynamic and clean UI with React & Tailwind CSS
+- 🛠️ Web3 interactions through smart contracts
+- 🔁 Real-time updates and smooth UX
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React, Tailwind CSS
+- **Blockchain:** Ethereum, Tezos
+- **File Storage:** IPFS
+- **Libraries & Tools:** Web3.js, Taquito, Axios
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+nft-marketplace/
+├── backend/                # Blockchain and service logic
+│   ├── TezosService.js
+│   ├── ethereumService.js
+│   └── index.js
+├── public/                 # Public files
+│   └── index.html
+├── src/
+│   ├── components/         # Reusable UI and functional components
+│   ├── pages/              # Page-level components like Home and Marketplace
+│   ├── services/           # Ethereum and Tezos interaction services
+│   ├── styles/             # Global styles
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧑‍💻 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/nft-marketplace.git
+cd nft-marketplace
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install dependencies
+```bash
+npm install
+cd backend
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Start the development server
+```bash
+# Start backend (if needed)
+node index.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# In a new terminal, start frontend
+npm start
+```
 
-## Learn More
+App will run on: [http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌍 Live Demo
 
-### Code Splitting
+_Coming soon..._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+_Add UI screenshots here if available._
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
 
-### Advanced Configuration
+This project is open source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📌 To-Do / Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Smart contract deployment to mainnet
+- Wallet connection for Tezos
+- Better NFT search/filter options
+- Add user profile pages
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
